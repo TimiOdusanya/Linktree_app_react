@@ -1,38 +1,105 @@
-.App {
+body{
   text-align: center;
+  margin-top: 64px;
+  font-family: 'Inter';
+font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile__img{
+width: 88px;
+height: 88px;
+border-radius: 275px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#twitter{
+color: #101828;
+height: 30px;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+margin-bottom: 56px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.link_section > button{
+width: 1152px;
+height: 76px;
+background: #EAECF0;
+border: 1px solid #EAECF0;
+border-radius: 8px;
+margin-bottom: 24px;
+}
+
+.link_section > button > a{
+width: 101px;
+height: 28px;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #101828;
+text-decoration: none;
+}
+.socials{
+  margin-top: 24px;
+}
+.slack{
+  margin-right: 26px;
+}
+
+.footer{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 52px;
+  /* margin: 20px 112px 52px 113px; */
 }
 
-.App-link {
-  color: #61dafb;
+hr{
+  
+  color: #EAECF0;
+  opacity: 0.4;
+  margin-top: 60px;
+  width: 80%;
+
+}
+.zuri_logo{
+  width: 185px;
+  height: 32px;
+  margin-right: 25%;
+  margin-left: 113px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer_name{
+ font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #667085;
+margin-right: 20%;
+min-width: fit-content;
+}
+.ifg{
+  width: 132.13px;
+height: 32px;
+}
+
+@media (max-width: 800px) {
+
+  .link_section > button{
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .zuri_logo{
+    margin-left: -200px;
   }
+  .footer_name{
+    margin-left: -200px;
+  }
+  .ifg{
+    margin-left: -400px;
+  }
+  .footer {
+    flex-direction: column;
+    margin: 0 0 52px 0;
+  }
+
+
 }
