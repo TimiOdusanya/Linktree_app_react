@@ -88,13 +88,13 @@ height: 32px;
   }
 
   .zuri_logo{
-    margin-left: -200px;
+    margin-left: -100px;
   }
   .footer_name{
-    margin-left: -200px;
+    margin-left: -100px;
   }
   .ifg{
-    margin-left: -400px;
+    margin-left: -250px;
   }
   .footer {
     flex-direction: column;
